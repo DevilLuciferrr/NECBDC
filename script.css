@@ -1,0 +1,112 @@
+#container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(2px);
+  }
+  
+  #videobcg {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    transform: translate(0%, -10%);
+  }
+
+  .container-fluid {
+    background-color: none; 
+    color: white;
+  font-weight: bold;
+  border: 0px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  z-index: 2;
+  width: 80%;
+  padding: 0px;
+  text-align: center;
+}
+.hm{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255,0.6);
+   border-radius: 50%;
+}
+.rs{
+    word-spacing: 5px;
+    background-color: rgb(255, 255, 255,0.6);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.rs :hover{
+  color: white;
+}
+.card-body{
+    color: black;
+    background-color: none; 
+  font-weight: bold;
+  border: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-65%, 50%);
+  z-index: 2;
+  width: 70%;
+  padding: 0px;
+  text-align: left;
+  word-spacing: 20px;
+  font-size: 60px;
+}
+
+.cardsub{
+    color: black;
+    background-color: none; 
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, 1500%);
+  z-index: 2;
+  width: 80%;
+  text-align: left;
+  word-spacing: 20px;
+  font-size: 20px;
+}
+
+.search{
+    margin-left: 80px;
+    margin-top: 20px;
+    transform: translate(120%, -120%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 40px;
+}
+
+.social{
+    background-color: none; 
+    color: none;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-300%, 550%);
+  z-index: 2;
+  width: 15%;  
+}
+
+.contact{
+    background-color: transparent; 
+    color: none;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(300%, 550%);
+  z-index: 2;
+  width: 12%;
+}
